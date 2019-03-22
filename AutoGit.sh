@@ -8,7 +8,7 @@ echo "Arquivos adicionados"
 #
 # Be careful cause it will remove all ignored files 
 # (delete them permanently)
-git clean -f
+git add -u :/
 echo "Removidos arquivos excluídos"
 #
 #
