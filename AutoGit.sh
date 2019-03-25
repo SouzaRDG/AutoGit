@@ -7,7 +7,7 @@
 # Checking if git is initialized, else it will initialize git
 
 
-dirname  = { $PWD + "/.git" }
+dirname  = { $PWD + "/.git" } >/dev/null
 
 if [ ! -d $dirname ]
 then
