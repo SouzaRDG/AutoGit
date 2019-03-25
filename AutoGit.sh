@@ -9,7 +9,7 @@
 
 # dirname  = $PWD + "/.git"
 
-if [ ! -d [ $PWD + "/.git" ] ]
+if [ ! -d $PWD + "/.git" ]
 then
 	echo "Initializing Git..."
 	git init
