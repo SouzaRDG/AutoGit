@@ -6,7 +6,7 @@
 
 # Checking if git is initialized, else it will initialize git
 
-if [ ! -d "/home/souzardg/Projetos/Shell/AutoGitPush/.git" ]
+if [ ! -d "/.git" ]
 then
 	echo "Initializing Git..."
 	git init
