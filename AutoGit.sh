@@ -24,10 +24,9 @@ echo "Arquivos adicionados"
 git add -u :/
 echo "Removidos arquivos excluídos"
 
-
 #    First variable is for the commit name
 
-git commit -m $1
+git commit -m "$1"
 
 #
 #
