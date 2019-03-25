@@ -6,9 +6,10 @@
 
 # Checking if git is initialized, else it will initialize git
 
-dirname  = $PWD + "/.git" >&-
 
-if [ ! -d $dirname ]
+# dirname  = $PWD + "/.git"
+
+if [ ! -d [ $PWD + "/.git" ] ]
 then
 	echo "Initializing Git..."
 	git init
